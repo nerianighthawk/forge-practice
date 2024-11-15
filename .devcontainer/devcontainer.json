@@ -1,0 +1,17 @@
+{
+    "name": "Minecraft Mod Development",
+    "image": "mcr.microsoft.com/devcontainers/java:17",
+    "features": {
+        "ghcr.io/devcontainers/features/gradle:1": {}
+    },
+    "postCreateCommand": "./gradlew build",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "redhat.java",
+                "vscjava.vscode-java-pack",
+                "vscjava.vscode-gradle"
+            ]
+        }
+    }
+}
